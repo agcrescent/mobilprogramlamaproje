@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">myproject77</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="studentName">İsim: %s</string>
+    <string name="studentAge">Yaş: %s</string>
+    <string name="studentNumber">Numara: %s</string>
+    <string name="unknown">Bilinmeyen.</string>
+    <string name="nointernet">Internet baglantısı Yok!</string>
+    <string name="about">Hakkımda</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="my_name">Eray Eryıldız</string>
+    <string name="my_number">191130074</string>
+    <string name="my_future">Yapmak istediğim şeyler: Tam zamanlı yayıncı olmak.</string>
+    <string name="my_now">Yaptığım şeyler: Üniversite okumak, yarı zamanlı yayın yapmak.</string>
+</resources>

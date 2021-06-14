@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:gravity="center">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/dp_20">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/eeeeee"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="@dimen/dp_36"
+                android:text="@string/my_name"
+                android:textSize="@dimen/sp_28"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_number"
+                android:textSize="@dimen/sp_28"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/dp_36"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_future"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/dp_36"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_now"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/dp_36"
+                android:layout_marginBottom="@dimen/dp_20"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
